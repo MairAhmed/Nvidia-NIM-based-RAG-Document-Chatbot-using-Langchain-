@@ -23,18 +23,18 @@ Clone this repository to your local machine.
 
 Install the required dependencies by running:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Make sure to set up your NVIDIA API key. Create a .env file in the root of the project and add your key:
 
-NVIDIA_API_KEY=your_key_here
-
+    NVIDIA_API_KEY=your_key_here
+   
 Place your PDF files in the ./us_census directory for loading into the application.
 
 # Usage
 To start the application, run the following command:
 
-streamlit run app.py
+    streamlit run app.py
 
 # Steps
 Load Documents: Click on the "Documents Embedding" button to load the documents and create vector embeddings.
@@ -47,7 +47,7 @@ View Document Chunks: After getting an answer, expand the "Document Similarity S
 # Environment Variables
 Make sure you have the following environment variable:
 
-NVIDIA_API_KEY: Your NVIDIA API key for authentication.
+    NVIDIA_API_KEY: Your NVIDIA API key for authentication.
 
 # Contributing
 Feel free to open issues or submit pull requests if you'd like to contribute or report bugs.
